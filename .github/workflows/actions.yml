@@ -1,10 +1,9 @@
 name: CI
 on:
   push:
-    branches:
-      - main
+    branches: [ main ]
   pull_request:
-      - main
+    branches: [ main ]
 
 env:
   NX_CLOUD_DISTRIBUTED_EXECUTION: true
