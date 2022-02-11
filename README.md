@@ -1,6 +1,6 @@
 
 
-# Monorepo Angular + Nestjs
+# Monorepo - Angular + Nestjs
 
 This project was generated using [Nx](https://nx.dev).
 

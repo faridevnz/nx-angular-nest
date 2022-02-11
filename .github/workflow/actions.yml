@@ -4,6 +4,7 @@ on:
     branches:
       - main
   pull_request:
+      - main
 
 env:
   NX_CLOUD_DISTRIBUTED_EXECUTION: true
