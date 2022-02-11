@@ -1,7 +1,7 @@
 {
   "version": 2,
   "projects": {
-    "angular-and-nest": "apps/angular-and-nest",
-    "angular-and-nest-e2e": "apps/angular-and-nest-e2e"
+    "frontend": "apps/frontend",
+    "frontend-e2e": "apps/frontend-e2e"
   }
 }

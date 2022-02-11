@@ -1,5 +1,5 @@
 module.exports = {
-  displayName: 'angular-and-nest',
+  displayName: 'frontend',
   preset: '../../jest.preset.js',
   setupFilesAfterEnv: ['<rootDir>/src/test-setup.ts'],
   globals: {
@@ -8,7 +8,7 @@ module.exports = {
       stringifyContentPathRegex: '\\.(html|svg)$',
     },
   },
-  coverageDirectory: '../../coverage/apps/angular-and-nest',
+  coverageDirectory: '../../coverage/apps/frontend',
   transform: {
     '^.+\\.(ts|mjs|js|html)$': 'jest-preset-angular',
   },

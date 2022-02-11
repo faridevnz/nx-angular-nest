@@ -15,10 +15,10 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have as title 'angular-and-nest'`, () => {
+  it(`should have as title 'frontend'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('angular-and-nest');
+    expect(app.title).toEqual('frontend');
   });
 
   it('should render title', () => {
@@ -26,7 +26,7 @@ describe('AppComponent', () => {
     fixture.detectChanges();
     const compiled = fixture.nativeElement as HTMLElement;
     expect(compiled.querySelector('h1')?.textContent).toContain(
-      'Welcome angular-and-nest'
+      'Welcome frontend'
     );
   });
 });
